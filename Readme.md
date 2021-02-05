@@ -1,7 +1,7 @@
 How to: Simultaneously configures settings for template series and series added to the chart manually. 
 
 
-![](~/images/series-base.png)
+![](images/series-base.png)
 
 Follow the steps below to implement this scenario:
 
