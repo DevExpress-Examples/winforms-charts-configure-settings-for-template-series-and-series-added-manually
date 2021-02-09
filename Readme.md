@@ -2,7 +2,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
+* [Form1.cs](./CS/series-base-example/Form1.cs) (VB: [Form1.vb](./VB/series-base-example/Form1.vb))
 <!-- default file list end -->
 
 # How to: Simultaneously configure settings for template series and series added to the chart manually 
