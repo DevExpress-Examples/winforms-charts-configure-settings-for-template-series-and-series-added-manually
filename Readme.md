@@ -1,4 +1,4 @@
-# How to: Simultaneously configures settings for template series and series added to the chart manually. 
+# How to: Simultaneously configure settings for template series and series added to the chart manually 
 
 
 ![](images/series-base.png)
