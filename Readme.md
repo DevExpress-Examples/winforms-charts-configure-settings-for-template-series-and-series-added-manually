@@ -4,14 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-<!-- default file list -->
-*Files to look at*:
-
-* [Form1.cs](./CS/series-base-example/Form1.cs) (VB: [Form1.vb](./VB/series-base-example/Form1.vb))
-<!-- default file list end -->
-
-# How to: Simultaneously configure settings for template series and series added to the chart manually 
-
+# WinForms Chart - Simultaneously Configure Settings for Template Series and Series Added to the Chart Manually 
 
 ![](images/series-base.png)
 
@@ -42,3 +35,7 @@ Follow the steps below to implement this scenario:
 * Call the custom _ConfigureSeries_ method with the series passed as a parameter to specify series settings. 
 
 * Use the [ChartControl.Dock](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.dock) property to specify the chart position. Call the [Controls.Add](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.controlcollection.add) method to add the chart to the form.
+
+## Files to Review
+
+* [Form1.cs](./CS/series-base-example/Form1.cs) (VB: [Form1.vb](./VB/series-base-example/Form1.vb))
