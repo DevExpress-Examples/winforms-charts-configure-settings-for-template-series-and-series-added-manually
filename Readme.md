@@ -26,14 +26,14 @@ Follow the steps below to implement this scenario:
 
 4.  Add a single series:
 
-   Call the [Series(String, ViewType)](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.Series.-ctor(System.String-DevExpress.XtraCharts.ViewType)) constructor to create a series. Pass the series name and series type as parameters to this method.
-
-   Use the [Series.DataSource](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.Series.DataSource) property to bind the series to a data source. The custom _GetSeriesData_ method returns the series data.
-
-   Add the series to the [ChartControl.Series](https://docs.devexpress.com/WindowsForms/DevExpress.XtraCharts.ChartControl.Series) collection.
+     Call the [Series(String, ViewType)](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.Series.-ctor(System.String-DevExpress.XtraCharts.ViewType)) constructor to create a series. Pass the series name and series type as parameters to this method.
+     
+     Use the [Series.DataSource](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.Series.DataSource) property to bind the series to a data source. The custom _GetSeriesData_ method returns the series data.
+     
+     Add the series to the [ChartControl.Series](https://docs.devexpress.com/WindowsForms/DevExpress.XtraCharts.ChartControl.Series) collection.
 
 5. Call the custom _ConfigureSeries_ method with the series passed as a parameter to specify series settings. 
-
+ 
 6. Use the [ChartControl.Dock](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.dock) property to specify the chart position. Call the [Controls.Add](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.controlcollection.add) method to add the chart to the form.
 
 ## Files to Review
